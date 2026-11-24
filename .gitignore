@@ -1,0 +1,23 @@
+# ===== ビルドで作られるもの =====
+VoicePeakAssist/*.exe
+*.pdb
+bin/
+obj/
+
+# ===== 実行すると exe の横に作られるもの（個人の設定・ログ・学習データ・診断画像） =====
+VoicePeakAssist.ini
+VoicePeakAssist.log
+VoicePeakAssist.log.old
+glyphs.dat
+diag/
+
+# ===== 配布用の zip =====
+*.zip
+
+# ===== エディタ・OS =====
+.vs/
+.vscode/
+*.suo
+*.user
+Thumbs.db
+desktop.ini

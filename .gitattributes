@@ -1,0 +1,19 @@
+# 改行コードは自動判定を基本にし、Windows 向けのテキストは CRLF にそろえる
+* text=auto
+
+*.cs            text eol=crlf diff=csharp
+*.bat           text eol=crlf
+*.cmd           text eol=crlf
+*.txt           text eol=crlf
+*.md            text eol=crlf
+*.ini           text eol=crlf
+.gitignore      text eol=crlf
+.gitattributes  text eol=crlf
+
+# バイナリ（改行変換・差分表示をしない）
+*.ico  binary
+*.png  binary
+*.jpg  binary
+*.exe  binary
+*.dll  binary
+*.zip  binary
